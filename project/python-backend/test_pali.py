@@ -23,6 +23,9 @@ ocr name and price of the product.
 model_inputs = processor(text=prompt, images=image, return_tensors="pt")
 input_len = model_inputs["input_ids"].shape[-1]
 
+model = model.to("mps")
+model_inputs = {k: v.to("mps") for k, v in model_inputs.items()}
+
 with torch.inference_mode():
     generation = model.generate(**model_inputs, max_new_tokens=100, do_sample=False)
     generation = generation[0][input_len:]

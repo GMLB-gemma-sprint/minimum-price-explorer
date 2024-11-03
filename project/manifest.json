@@ -8,8 +8,7 @@
     "activeTab",
     "storage",
     "scripting",
-    "tabs",
-    "https://search.shopping.naver.com/"
+    "tabs"
   ],
   "host_permissions": [
     "https://*.google.com/"
