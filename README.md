@@ -5,7 +5,7 @@ The core algorithm compares the target product with similar products in our data
 
 
 ## Members
-Gyeongho Cho, Sunyeong Park
+Gyeongho Cho, Sunyoung Park
 
 
 ## Demo
