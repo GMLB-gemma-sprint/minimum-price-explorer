@@ -1,5 +1,5 @@
 # Minimum Price Explorer
-<div align='center>
+<div align=center>
   
 ![](figs/demo_video.gif)
 
